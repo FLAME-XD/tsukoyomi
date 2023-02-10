@@ -541,7 +541,7 @@ def pw_login():
 def alphaMD(idf,pw_crack):
 	global loop,ok,cp
 	sys.stdout.write(f"\r {H}crack {rich_cerah}{(loop)} {P}> {len(uid)} {P}live:-{H}{(ok)}  {P}check:-{K}{(cp)}");sys.stdout.flush()
-	ua = "Mozilla/5.0 (Linux; Android 11; 220333QAG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.98 Mobile Safari/537.36"
+	ua = ""
 	ses = requests.Session()
 	for pw in pw_crack:
 		try:
